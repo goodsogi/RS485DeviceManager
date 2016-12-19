@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">DeviceManager</string>
+
+    <!-- STEP TITLE -->
+    <string name="STEP_DEVICE_SETTING">유선디바이스 설정</string>
+    <string name="STEP_DONGHO">동 - 호</string>
+    <string name="STEP_NETWORK">네트워크</string>
+    <string name="STEP_SERVERS">서 버</string>
+    <string name="STEP_SUBPHONE">서브폰</string>
+    <string name="STEP_SENSOR">센서</string>
+    <string name="STEP_SENSORTEST">센서 테스트</string>
+    <string name="STEP_COMPLETE">완료</string>
+
+
+    <!-- BUTTONS -->
+    <string name="BTN_PREV">뒤로</string>
+    <string name="BTN_NEXT">다음</string>
+
+
+    <string name="scanning_device">디바이스 스캔중...</string>
+
+</resources>

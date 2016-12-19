@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"  >
+
+    <LinearLayout
+        android:id="@+id/bottombtn_linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/bottom_linearlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_bottom_01" >
+
+            <Button
+                android:id="@+id/btn_prev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/prev_btn_selector"
+                android:gravity="center"
+                android:text="@string/BTN_PREV"
+                android:textColor="#ffffff"
+                android:textSize="13dp"
+                android:layout_marginRight="12dip" />
+            
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:background="@drawable/next_btn_selector"
+                android:gravity="center"
+                android:text="@string/BTN_NEXT"
+                android:textColor="#ffffff"
+                android:textSize="13dp"
+                android:layout_marginLeft="12dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

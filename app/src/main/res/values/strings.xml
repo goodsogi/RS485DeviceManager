@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">DeviceManager</string>
+
+
+    <!-- STEP TITLE -->
+    <string name="STEP_DEVICE_SETTING">Device Setting</string>
+    <string name="STEP_DONGHO">Block - Door</string>
+    <string name="STEP_NETWORK">Network</string>
+    <string name="STEP_SERVERS">Servers</string>
+    <string name="STEP_SUBPHONE">Sun Phone</string>
+    <string name="STEP_SENSOR">Sensor</string>
+    <string name="STEP_SENSORTEST">Sensor Test</string>
+    <string name="STEP_COMPLETE">Complete</string>
+
+    <!-- BUTTONS -->
+
+    <string name="BTN_PREV">Prev</string>
+    <string name="BTN_NEXT">Next</string>
+
+    <string name="scanning_device">Scanning device...</string>
+
+</resources>
